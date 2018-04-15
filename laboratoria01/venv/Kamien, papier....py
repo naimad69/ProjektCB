@@ -4,13 +4,10 @@ import time
 T=0
 K=0
 
-
 lista=['kamień','papier','nożyce']
 
 random.seed(time.time())
 x = random.randint(0,2)
-
-
 
 wybor=input('Co wybierasz?: ')
 
