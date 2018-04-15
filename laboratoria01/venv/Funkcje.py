@@ -17,7 +17,4 @@ def dzielenie (a,b):
     wynik = a/b
     return wynik
 
-print(dodawanie(a,b))
-print(odejmowanie(a,b))
-print(mnożenie(a,b))
-print(dzielenie(a,b))
+
