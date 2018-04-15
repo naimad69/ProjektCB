@@ -3,8 +3,15 @@ import time
 
 lista=['Wacław', 'Benito', 'Vladimir', 'Czyngishan', 'Armstrong', 'CarycaKatarzyna', 'Gebbels', 'DrOetker', 'LarraCroft', 'JanuszTracz']
 
+
+
 random.seed(time.time())
-print(random.randint(1,10))
+x = random.randint(0,9)
+
+print(lista[x])
+
+
+
 
 
 
