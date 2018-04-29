@@ -17,7 +17,7 @@ tygrys.wyswietl()
 
 class ssak(zwierze):
     def costam(self):
-        zwierze.wyswietl(self)
+        zwierze.wyswietl(self)    # Zamiast 'zwierze' może być 'super()'
 
 
 X = ssak(10, "Działa!!!11", False)
