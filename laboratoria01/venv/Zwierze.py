@@ -1,16 +1,18 @@
 class zwierze:
-    def __init__(self, ilosc_nog, drapieznik, szybki):
-        self.ilosc_nog = 4
-        self.drapieznik = True
-        self.szybki = True
+    ilosc = ""
+    drapieznik = ""
+    szybki = ""
+    def __init__(self, ilosc, drapieznik, szybki):
+        self.ilosc_nog = ilosc
+        self.drapieznik = drapieznik
+        self.szybki = szybki
 
     def wyswietl(self):
         print(self.ilosc_nog, self.drapieznik, self.szybki)
         return 0
 
-tygrys = zwierze(4, True, False)
+tygrys = zwierze(10, "Jest drapieznikiem", False)
 
 tygrys.wyswietl()
-tygrys.ilosc_nog = 9
-tygrys.drapieznik = False
-tygrys.wyswietl()
+
+
