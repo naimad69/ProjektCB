@@ -15,4 +15,13 @@ tygrys = zwierze(10, "Jest drapieznikiem", False)
 
 tygrys.wyswietl()
 
+class ssak(zwierze):
+    def costam(self):
+        zwierze.wyswietl(self)
+
+
+X = ssak(10, "Działa!!!11", False)
+X.wyswietl()
+
+
 
